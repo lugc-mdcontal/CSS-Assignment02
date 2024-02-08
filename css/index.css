@@ -1,0 +1,95 @@
+/*
+    @note(matthew: fonts
+*/
+@import url("https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Patua+One&display=swap");
+
+body {
+    /*
+        @note(matthew): background specifiers
+    */
+    background-image: url("../deps/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    /*
+        @note(matthew): location specifiers
+    */
+    margin-left: 7%;
+    margin-top: 9%;
+}
+
+@keyframes blink-anim {
+    0%, 100% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: white;
+    }
+}
+
+.blinker {
+    /*
+        @note(matthew): text blinker animation
+    */
+    display: inline-block;
+    border-right: 2px solid white;
+    padding-right: 2px;
+    animation: blink-anim 1s step-end infinite;
+}
+
+#lyrics {
+    /*
+        @note(matthew): text specifiers
+    */
+    color: rgb(105, 81, 46);
+    font-family: "Protest Strike", sans-serif;
+    font-size: 2em;
+}
+
+#lyric0 {
+    /*
+        @note(matthew): text specifiers
+    */
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    color: blue;
+}
+
+#lyric1 {
+    /*
+        @note(matthew): text specifiers
+    */
+    font-family: "Amatic SC", sans-serif;
+    font-weight: bolder;
+    color: red;
+}
+
+#lyric2 {
+    /*
+        @note(matthew): text specifiers
+    */
+    font-style: italic;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#lyric3 {
+    /*
+        @note(matthew): text specifiers
+    */
+    font-family: "Patua One", serif;
+    font-style: oblique;
+}
+
+#lyric4 {
+    /*
+        @note(matthew): text specifiers
+    */
+    font-style: italic;
+    font-family: "Bebas Neue", sans-serif;
+    color: green;
+}
