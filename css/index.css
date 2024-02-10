@@ -9,6 +9,8 @@
 body {
     /*
         @note(matthew): background specifiers
+        I know this bg image won't work well on all device resolutions,
+        but that wasn't a requirement for this project, so I didn't bother fixing it.
     */
     background-image: url("../deps/background.png");
     background-repeat: no-repeat;
@@ -23,6 +25,9 @@ main {
     margin-top: 9%;
 }
 
+/*
+    @note(matthew): blinker animation
+*/
 @keyframes blink-anim {
     0%, 100% {
       border-color: transparent;
@@ -42,12 +47,17 @@ main {
     animation: blink-anim 1s step-end infinite;
 }
 
+/*
+    @note(matthew): these are intentionally named like this, 
+    because the meaning of the font should be implied with the lyrics.
+*/
+
 #lyrics {
     /*
         @note(matthew): text specifiers
     */
     color: rgb(105, 81, 46);
-    font-family: "Protest Strike", sans-serif;
+    font-family: monospace;
     font-size: 2em;
 }
 
@@ -66,6 +76,7 @@ main {
     */
     font-family: "Amatic SC", sans-serif;
     font-weight: bolder;
+    font-size: 3em;
     color: red;
 }
 
@@ -74,6 +85,7 @@ main {
         @note(matthew): text specifiers
     */
     font-style: italic;
+    font-weight: bolder;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -82,7 +94,8 @@ main {
         @note(matthew): text specifiers
     */
     font-family: "Patua One", serif;
-    font-style: oblique;
+    font-weight: bold;
+    /* font-style: oblique; */
 }
 
 #lyric4 {
@@ -91,5 +104,5 @@ main {
     */
     font-style: italic;
     font-family: "Bebas Neue", sans-serif;
-    color: green;
+    color: green; /* green because grass, so freemdom! */
 }
