@@ -59,6 +59,7 @@ main {
     color: rgb(105, 81, 46);
     font-family: monospace;
     font-size: 2em;
+    text-decoration: underline;
 }
 
 #lyric0 {
