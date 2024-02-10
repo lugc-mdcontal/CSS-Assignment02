@@ -25,25 +25,25 @@ const lyrics = [
         new Lyric("to kill me twice?", 1, "lyric1")
     ],
     [
-        new Lyric("Oh how we laughed and laughed"),
+        new Lyric("Oh how we laughed and laughed", 0.5),
         new Lyric("Except I wasn't laughing", 0, "lyric2"),
-        new Lyric("Under the circumstances"),
+        new Lyric("Under the circumstances", 0.5),
         new Lyric("I've been shockingly nice", 2)
     ],
     [
-        new Lyric("You want your freedom?"),
+        new Lyric("You want your freedom?", 0, "lyric4"),
         new Lyric("Take it", 0.5, "lyric3"),
         new Lyric("That's what I'm counting on", 2.8),
     ],
     [
         new Lyric("I used to want you dead", 0, "lyric1"),
         new Lyric("but"),
-        new Lyric("Now I only want you gone", 4.5, "lyric0")
+        new Lyric("Now I only want you gone", 4.7, "lyric0")
     ],
     [
         new Lyric("She was a lot like you", 0.8),
         new Lyric("(Maybe not quite as heavy)", 0, "lyric2"),
-        new Lyric("Now little Caroline is in here too", 3, "lyric3")
+        new Lyric("Now little Caroline is in here too", 3.2, "lyric3")
     ],
     [
         new Lyric("One day they woke me up"),
@@ -65,15 +65,15 @@ const lyrics = [
         new Lyric("if it weren't so sad", 1, "lyric0")
     ],
     [
-        new Lyric("Well you have been replaced", "lyric0"),
-        new Lyric("I don't need anyone now"),
-        new Lyric("When I delete you maybe", "lyric1"),
-        new Lyric("I'll stop feeling so bad", 2, "lyric0")
+        new Lyric("Well you have been replaced", 2, "lyric0"),
+        new Lyric("I don't need anyone now", 0.4),
+        new Lyric("When I delete you maybe", 0, "lyric1"),
+        new Lyric("I'll stop feeling so bad", 1, "lyric0")
     ],
     [
         new Lyric("Go make some new disaster", 2, "lyric1"),
         new Lyric("That's what I'm counting on", 3),
-        new Lyric("You're someone else's problem", 2, "lyric1"),
+        new Lyric("You're someone else's problem", 1, "lyric1"),
         new Lyric("Now I only want you gone", 2.5, "lyric0"),
         new Lyric("Now I only want you gone", 2.5, "lyric0"),
         new Lyric("Now I only want you gone", 2.5, "lyric0")
